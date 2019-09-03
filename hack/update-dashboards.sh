@@ -62,5 +62,6 @@ YAML
 
 for dashboard in dashboards/*.json; do
   echo "  $(basename $dashboard): |" >> $manifest
-  sed 's/^/    /' "$dashboard" >> $manifest
+  echo -n "    " >> $manifest
+  jq -cM . $dashboard >> $manifest
 done
