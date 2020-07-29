@@ -2,7 +2,8 @@
 
 This repository contains resources to set up a stack for monitoring
 the resource usage in Prow CI/CD clusters. Please refer to the
-[original blog post](...) for more installation instructions.
+[original blog post](https://www.kubermatic.com/blog/monitoring-prow-resources-with-prometheus-and-grafana/)
+for more installation instructions.
 
 ## Contributing
 
